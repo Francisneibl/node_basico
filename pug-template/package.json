@@ -1,0 +1,14 @@
+{
+  "name": "pug-template",
+  "version": "1.0.0",
+  "description": "Criando templates com PUG.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "pug templates/ --pretty --out ./build"
+  },
+  "author": "Francisnei LIma",
+  "license": "MIT",
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
